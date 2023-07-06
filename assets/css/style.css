@@ -1,0 +1,211 @@
+:root {
+    --white: #313131;
+    --lightblue: #313131;
+    --blue: #dd9a42;
+    --darkblue: #000000;
+  }
+  
+  html {
+    background-color: var(--lightblue);
+  }
+  
+  header, li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    background-color: var(--blue);
+  }
+  
+  h1 {
+    font-size: 200%;
+    color: var(--white);
+    font-family: sans-serif;
+    margin-left: 20px;
+  }
+  
+  ul {
+    font-size: 100%;
+    color: var(--white);
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  li {
+    margin-right: 40px;
+  }
+  
+  a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--white)
+  }
+  
+  .welcome {
+    background: url(https://i.postimg.cc/6pTqYPRp/IMG-3848.jpg);
+    background-position-y: -225px;
+    background-position-x: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .main-img {
+    margin: 10px;
+    border: solid;
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: var(--blue);
+    background: var(--lightblue);
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .background-color {
+    background: var(--blue);
+  }
+  
+  .about {
+    font-size: 200%;
+    color: var(--white);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  
+  .text {
+    font-size: 100%;
+    color: var(--lightblue);
+    padding-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .workcontainers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 600px;
+  }
+  
+  .firstworkcard {
+    width: 1000px;
+    height: 250px;
+    margin: 10px;
+    border: solid 2px;
+    background-color: var(--blue);
+    background-image: url(https://github.blog/wp-content/uploads/2022/12/1200x640-1.png?fit=1200%2C640);
+    background-size: 600px;
+    background-position: center;
+  }
+  
+  .firstworkcardtext {
+    font-size: 150%;
+    font-weight: bolder;
+    text-decoration: solid;
+    background-color: var(--blue);
+    color: var(--lightblue);
+    text-align: center;
+  }
+  
+  .secondworkcard {
+    width: 800px;
+    height: 250px;
+    margin: 10px;
+    border: solid 2px;
+    background-color: var(--blue);
+    background-image: url(https://images-gmi-pmc.edge-generalmills.com/3aee4c63-0e3f-4dc9-bfb0-b3569949d04c.jpg);
+    background-position: center;
+    background-size: 800px;
+  }
+  
+  .h7 {
+    font-size: 150%;
+    font-weight: bolder;
+    text-decoration: solid;
+    background-color: var(--blue);
+    color: var(--lightblue);
+    text-align: center;
+  }
+  
+  .workcards {
+    width: 425px;
+    height: 250px;
+    margin: 10px;
+    border: solid 2px;
+    background-color: var(--blue);
+    background-image: url(https://images-gmi-pmc.edge-generalmills.com/3aee4c63-0e3f-4dc9-bfb0-b3569949d04c.jpg);
+    background-position: center;
+    background-size: 450px;
+  }
+  
+  .htmlcard {
+    width: 425px;
+    height: 250px;
+    margin: 10px;
+    border: solid 2px;
+    background-color: var(--blue);
+    background-image: url(https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-html/sta-je-html.jpg);
+    background-position: center;
+    background-size: 450px;
+  }
+  
+  .csscard {
+    width: 425px;
+    height: 250px;
+    margin: 10px;
+    border: solid 2px;
+    background-color: var(--blue);
+    background-image: url(https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-css/sta-je-css.png);
+    background-position: center;
+    background-size: 450px;
+  }
+  
+  .jscard {
+    width: 425px;
+    height: 250px;
+    margin: 10px;
+    border: solid 2px;
+    background-color: var(--blue);
+    background-image: url(https://www.codelivly.com/wp-content/uploads/2023/01/1665673562977-Best-way-to-learn-javascript.jpg);
+    background-position: center;
+    background-size: 450px;
+  }
+  
+  .ccard {
+    width: 425px;
+    height: 250px;
+    margin: 10px;
+    border: solid 2px;
+    background-color: var(--blue);
+    background-image: url(https://nise.org.pk/wp-content/uploads/2021/02/1_mDKusLBkGKBWW4aycK4PCA.png);
+    background-position: center;
+    background-size: 450px;
+  
+  }
+  
+  footer {
+    font-size: 200%;
+    color: var(--lightblue);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--blue);
+    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
